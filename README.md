@@ -1,2 +1,2 @@
 # Competitive-Programing
-My codes to learn to marathones
+My codes to practice to marathones
