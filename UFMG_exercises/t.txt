@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define endl '\n';
+#define _                     \
+    ios ::sync_with_stdio(0); \
+    cin.tie(0);
+
+void bfs(vector<vector<int>> &v,vector<bool> &vis, int num){
+    vis[num] = true;
+    
+}
+
+int main()
+{
+    int n, m, i, j, g_circles;
+    g_circles = 0;
+    cin >> n >> m;
+    vector<vector<int>> v;
+    vector<bool> v;
+    while (m--)
+    {
+        cin >> i >> j;
+        v[i].push_back(j);
+        v[j].push_back(i);
+    }
+}
